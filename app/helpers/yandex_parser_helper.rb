@@ -1,0 +1,2 @@
+module YandexParserHelper
+end

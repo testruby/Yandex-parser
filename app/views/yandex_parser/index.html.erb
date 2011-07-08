@@ -1,0 +1,13 @@
+<h2>Быстрая проверка позиций по Яндекс XML</h2>
+
+<%= form_tag(positions_path, :method => "post") do %>
+  <%= label_tag :site_domain, "Домен" %><br />
+  <%= text_field_tag :site_domain %><br /><br />
+  
+  <%= label_tag :words, "Слова" %><br />
+  <%= text_area_tag :words, "", :size => "50x10" %><br /><br />
+  
+  <%= submit_tag "Получить позиции" %>
+<% end %>
+
+
