@@ -8,6 +8,7 @@ gem 'haml'
 
 gem 'sqlite3'
 gem 'nokogiri'
+gem 'rspec'
 
 # Use unicorn as the web server
 # gem 'unicorn'
