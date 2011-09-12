@@ -43,6 +43,9 @@ class Site
   def xml_for_word( word )
     "http://xmlsearch.yandex.ru/xmlsearch?user=impulse221&key=03.3775144:b4483006febebfaa17af40f97c9c6e69&query=#{URI.escape(word)}&groupby=attr%3Dd.mode%3Ddeep.groups-on-page%3D100.docs-in-group%3D1"
   end
+  def yandex_key
+    "user=impulse221&key=03.3775144:b4483006febebfaa17af40f97c9c6e69"
+  end
 
   def parse
     @words.each do |word|
